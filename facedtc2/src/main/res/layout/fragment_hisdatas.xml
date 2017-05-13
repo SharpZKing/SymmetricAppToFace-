@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/nodatas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       />
+
+    <!--<ListView
+        android:listSelector="@android:color/transparent"
+        android:layout_margin="2dp"
+        android:id="@+id/all_result"
+        android:scrollbars="none"
+        android:divider="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>-->
+
+    <LinearLayout
+        android:id="@+id/llshow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:textSize="9sp"
+            android:gravity="center"
+            android:background="#fff"
+            android:text="趋势统计"
+            />
+
+        <lecho.lib.hellocharts.view.LineChartView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:id="@+id/line_chart2"
+            android:layout_width="match_parent"
+            android:layout_height="140dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:textSize="9sp"
+            android:gravity="center"
+            android:background="#fff"
+            android:text="下拉刷新"
+            />
+
+        <com.sharp.views.RefreshListView
+            android:listSelector="@android:color/transparent"
+            android:layout_margin="2dp"
+            android:id="@+id/all_result"
+            android:scrollbars="none"
+            android:divider="@null"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+           >
+        </com.sharp.views.RefreshListView>
+
+    </LinearLayout>
+
+    <!--<com.sharp.views.RefreshListView
+        android:listSelector="@android:color/transparent"
+        android:layout_margin="2dp"
+        android:id="@+id/all_result"
+        android:scrollbars="none"
+        android:divider="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.sharp.views.RefreshListView>-->
+
+</FrameLayout>

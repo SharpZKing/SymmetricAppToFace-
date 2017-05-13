@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<include layout="@layout/top"/>
+
+	<SurfaceView
+		android:id="@+id/sfv_preview"
+		android:layout_width="480dp"
+		android:layout_height="640dp"/>
+
+	<SurfaceView
+		android:id="@+id/sfv_face"
+		android:layout_width="480dp"
+		android:layout_height="640dp"/>
+
+	<TextView
+		android:id="@+id/tv_tip"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:textColor="#ff0000"
+		android:text="@string/tip1"
+		android:layout_marginBottom="200dp"
+		/>
+
+	<Button
+		android:id="@+id/capture"
+		android:layout_centerHorizontal="true"
+		android:layout_width="90dp"
+		android:layout_height="90dp"
+		android:layout_marginBottom="25dp"
+		android:layout_alignParentBottom="true"
+		android:text=""
+		android:onClick="capture"
+		android:background="@drawable/bg_photo_circle"
+		/>
+	
+</RelativeLayout>

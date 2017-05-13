@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">对称Symmetric</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">582a811a</string>
+
+    <string name="topname">人脸对称度识别</string>
+    <string name="account">我的</string>
+    <string name="recognize">检测</string>
+    <string name="hisdatas">历史数据</string>
+    <string name="tipall">本次检测部分共有6个标准动作，请点击开始按钮并按照医生的动作和提示信息依次检测</string>
+    <string name="tip1">当前动作是正脸动作，请将人脸位置置于相机中间，不做任何表情，眼睛注视前方</string>
+    <string name="tip2">当前动作是抬眉动作，请将人脸位置置于相机中间，按图片提示动作抬眉</string>
+    <string name="tip3">当前动作是闭眼动作，请将人脸位置置于相机中间，按图片提示动作闭眼</string>
+    <string name="tip4">当前动作是怂鼻动作，请将人脸位置置于相机中间，按图片提示动作怂鼻</string>
+    <string name="tip5">当前动作是吹口哨动作，请将人脸位置置于相机中间，按图片提示动作吹口哨</string>
+    <string name="tip6">当前动作是皱眉动作，请将人脸位置置于相机中间，按图片提示动作皱眉</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="go_home">进入主页</string>
+    <string name="text_dwnload_failure">下载失败</string>
+    <string name="text_Ddwnload_successful">下载成功</string>
+
+</resources>

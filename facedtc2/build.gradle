@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "25.0.0"
+
+    defaultConfig {
+        applicationId "com.sharp.facedtc"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    provided fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile files('libs/Msc.jar')
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.kymjs.rxvolley:rxvolley:1.1.4'
+    compile 'com.kymjs.rxvolley:okhttp:1.1.4'
+    compile 'org.litepal.android:core:1.4.1'
+    compile files('libs/zxing.jar')
+    compile files('libs/hellocharts-library-1.5.8.jar')
+    compile 'com.daimajia.numberprogressbar:library:1.4@aar'
+    provided files('libs/httpclient-4.5.3.jar')
+    provided files('libs/httpcore-4.4.6.jar')
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ssxx2"
+        android:alpha="0.8"/>
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/item_tv_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="对称能给人以一种圆满、匀称的美感"/>
+
+    <TextView
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/item_tv_one_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="对称是世间万事万物的一种表现形式！"/>
+
+</RelativeLayout>
